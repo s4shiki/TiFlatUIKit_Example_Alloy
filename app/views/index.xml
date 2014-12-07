@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+    <Button ns="Alloy.Globals.tiFlatUI" id="flatButton" onClick="showAlertDialog" />
+    <TabbedBar ns="Alloy.Globals.tiFlatUI" id="flatTabbedBar" onClick="showDebug" />
+    <AlertDialog ns="Alloy.Globals.tiFlatUI" id="flatAlertDialog" onClick="showDebug" />
+    <Slider ns="Alloy.Globals.tiFlatUI" id="flatSlider" onChange="showDebug" />
+    <Switch ns="Alloy.Globals.tiFlatUI" id="flatSwitch" onChange="showDebug" />
+    <ProgressBar ns="Alloy.Globals.tiFlatUI" id="flatProgressBar" />
+    <Label id="stepperLabel" />
+    <Stepper ns="Alloy.Globals.tiFlatUI" id="flatStepper" onChange="setStepperLabelValue" />
+	</Window>
+</Alloy>
